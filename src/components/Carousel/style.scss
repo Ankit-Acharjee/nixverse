@@ -13,23 +13,23 @@
     }
     .arrow {
         font-size: 30px;
-        color: black;
+        color: white;
         position: absolute;
         top: 44%;
         transform: translateY(-50%);
         cursor: pointer;
-        opacity: 0.7;
+        opacity: 0;
         z-index: 10;
         display: none;
+        transition: opacity 0.3s ease;
+        
         @include md {
             display: block;
-        }
-        &:hover {
-            opacity: 0.3;
         }
     }
     .carouselLeftNav {
         left: 22px;
+        
     }
     .carouselRightNav {
         right: 22px;
@@ -167,5 +167,12 @@
                 }
             }
         }
+    }
+    &:hover{
+        .arrow{
+            opacity: 0.8;
+            
+        }
+        
     }
 }

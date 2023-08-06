@@ -44,7 +44,7 @@ const HeroBanner = () => {
             Explore Now
             </span>
           
-          <div className="seatchInput">
+          <div className="searchInput">
             <input type="text"
             placeholder='Search for a movie or tv show...' 
 
