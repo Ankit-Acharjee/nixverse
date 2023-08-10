@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import React from 'react'
 import Carousel from '../../../components/Carousel/Carousel'
 import useFetch from '../../../hooks/useFetch'
