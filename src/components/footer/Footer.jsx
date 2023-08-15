@@ -23,26 +23,30 @@ const Footer = () => {
                     <li className="menuItem">FAQ</li>
                 </ul>
                 <div className="infoText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                Discover the world of cinema with [Your Movie Website Name], your premier source for comprehensive film and television information. Immerse yourself in a universe of credits, reviews, ratings, and behind-the-scenes insights. Uniting movie enthusiasts, industry professionals, and casual viewers alike, we provide a gateway to explore the vast landscape of entertainment. From classic favorites to the latest releases, [Your Movie Website Name] is your trusted companion on the cinematic journey.
                 </div>
                 <div className="socialIcons">
-                    <span className="icon">
-                        <FaFacebookF />
-                    </span>
-                    <span className="icon">
-                        <FaInstagram />
-                    </span>
-                    <span className="icon">
+                    <a href="https://www.facebook.com/ankit.acharjee.56/">
+                        <span className="icon">
+                            <FaFacebookF />
+
+                        </span>
+                    </a>
+                    <a href="https://www.instagram.com/_._anonym__ous/">
+                        <span className="icon">
+
+                            <FaInstagram />
+                        </span>
+                    </a>
+                    {/* <span className="icon">
                         <FaTwitter />
-                    </span>
-                    <span className="icon">
-                        <FaLinkedin />
-                    </span>
+                    </span> */}
+                    <a href="https://www.linkedin.com/in/ankit-acharjee-930478156/">
+                        <span className="icon">
+                            <FaLinkedin />
+
+                        </span>
+                    </a>
                 </div>
             </ContentWrapper>
         </footer>
