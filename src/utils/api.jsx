@@ -15,7 +15,8 @@ export const fetchDataFromApi = async (url,params) => {
         const {data} = await axios.get(
             BASE_URL + url, {
                 headers,
-                params
+                params,
+                baseURL: "https://api.themoviedb.org/3",
             })
             return data;
         
