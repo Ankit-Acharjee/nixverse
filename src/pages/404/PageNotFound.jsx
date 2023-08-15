@@ -1,12 +1,17 @@
-/* eslint-disable no-unused-vars */
-import React from 'react'
-import "./style.scss"
+import React from "react";
 
-// eslint-disable-next-line react-refresh/only-export-components
-const pagesNotFound = () => {
-  return (
-    <div>404</div>
-  )
-}
+import "./style.scss";
 
-export default 404
+import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
+
+const PageNotFound = () => {
+    return (
+        <div className="pageNotFound">
+            <ContentWrapper>
+                <span className="bigText">404</span>
+                <span className="smallText">Page not found!</span>
+            </ContentWrapper>
+        </div>
+    );
+};
+export default PageNotFound;
