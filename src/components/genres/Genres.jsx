@@ -9,7 +9,7 @@ const Genres = ({data}) => {
 
   return (
     <div className='genres'>
-            {data.map((g)=>{
+            {data?.map((g)=>{
                 if(!genres[g]?.name) return
 
                 return(

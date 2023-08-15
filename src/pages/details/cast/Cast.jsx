@@ -21,7 +21,7 @@ const Cast = ({ data, loading }) => {
             </div>
         );
     };
-    return data.length > 0 && (
+    return data?.length > 0 && (
         <div className="castSection">
             <ContentWrapper>
                 <div className="sectionHeading">Top Cast</div>
