@@ -23,7 +23,7 @@ const Footer = () => {
                     <li className="menuItem">FAQ</li>
                 </ul>
                 <div className="infoText">
-                Discover the world of cinema with [Your Movie Website Name], your premier source for comprehensive film and television information. Immerse yourself in a universe of credits, reviews, ratings, and behind-the-scenes insights. Uniting movie enthusiasts, industry professionals, and casual viewers alike, we provide a gateway to explore the vast landscape of entertainment. From classic favorites to the latest releases, [Your Movie Website Name] is your trusted companion on the cinematic journey.
+                Discover the world of cinema with Nixverse, your premier source for comprehensive film and television information. Immerse yourself in a universe of credits, reviews, ratings, and behind-the-scenes insights. Uniting movie enthusiasts, industry professionals, and casual viewers alike, we provide a gateway to explore the vast landscape of entertainment. From classic favorites to the latest releases, Nixverse is your trusted companion on the cinematic journey.
                 </div>
                 <div className="socialIcons">
                     <a href="https://www.facebook.com/ankit.acharjee.56/">
