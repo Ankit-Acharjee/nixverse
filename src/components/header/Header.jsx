@@ -21,7 +21,7 @@ const Header = () => {
   const location = useLocation();
 
   const isHomePage= location.pathname === "/";
-console.log(isHomePage)
+  
   useEffect(()=>{
       window.scrollTo(0,0)
 
@@ -93,8 +93,10 @@ console.log(isHomePage)
           {showSearch  ? "": <HiOutlineSearch onClick={openSearch} />}
           </li>}
         </ul>
+
+        
         <div className="mobileMenuItems">
-          {isHomePage ? "" : (showSearch  ? "": <HiOutlineSearch onClick={openSearch} />)}
+          {isHomePage ? "" :( showSearch  ? "": <HiOutlineSearch onClick={openSearch} />)}
           {mobileMenu ? (
             <VscChromeClose
               onClick={() => {
