@@ -20,6 +20,8 @@ const Header = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
+  const isHomePage= location.pathname === "/";
+console.log(isHomePage)
   useEffect(()=>{
       window.scrollTo(0,0)
 
@@ -87,12 +89,12 @@ const Header = () => {
         <ul className="menuItems">
           <li className="menuItem" onClick={()=>navigationHandler("movie")}>Movies</li>
           <li className="menuItem" onClick={()=>navigationHandler("tv")}>TV Shows</li>
-          <li className="menuItem">
-          {showSearch ? "": <HiOutlineSearch onClick={openSearch} />}
-          </li>
+          {isHomePage ? "" : <li className="menuItem">
+          {showSearch  ? "": <HiOutlineSearch onClick={openSearch} />}
+          </li>}
         </ul>
         <div className="mobileMenuItems">
-          {showSearch ? "": <HiOutlineSearch onClick={openSearch} />}
+          {isHomePage ? "" : (showSearch  ? "": <HiOutlineSearch onClick={openSearch} />)}
           {mobileMenu ? (
             <VscChromeClose
               onClick={() => {
