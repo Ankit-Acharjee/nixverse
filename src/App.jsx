@@ -20,7 +20,7 @@ const App = () => {
   const dispatch=useDispatch();
   const {url}=useSelector((state)=>
   state.home)
-  console.log(url)
+  // console.log(url)
   useEffect(()=>{
     fetchApiConfig();
     genresCall()
@@ -29,7 +29,7 @@ const App = () => {
     const fetchApiConfig = ()=>{
       fetchDataFromApi('/configuration')
        .then((res)=>{
-        console.log(res)
+        // console.log(res)
 
         const url={ backdrop:res.images.secure_base_url + "original",
           poster:res.images.secure_base_url + "original",
