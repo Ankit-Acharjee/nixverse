@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: / # Block access to all other parts of the site
 Allow: /sitemap.xml # Allow access to the sitemap.xml file
+Allow: /src/components/footer/Footer.jsx
